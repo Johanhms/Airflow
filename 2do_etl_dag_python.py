@@ -68,6 +68,7 @@ def etl_pandas_job():
     df_final = df_resultados[[
         "order_id",
         "order_status",
+        "order_date",
         "customer_fname",
         "customer_lname",
         "product_name",
